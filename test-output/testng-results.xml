@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-10T12:15:09 IST" name="Suite" finished-at="2024-04-10T12:16:20 IST" duration-ms="70496">
+    <groups>
+    </groups>
+    <test started-at="2024-04-10T12:15:09 IST" name="Verify that the Username and Password text field should be null or blank." finished-at="2024-04-10T12:15:21 IST" duration-ms="11507">
+      <class name="orangeHRMTestClasses.TestCase1">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:orangeHRMTestClasses.TestCase1@72ade7e3]" started-at="2024-04-10T12:15:09 IST" name="launchBrowser" finished-at="2024-04-10T12:15:16 IST" duration-ms="6959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="Objects()[pri:0, instance:orangeHRMTestClasses.TestCase1@72ade7e3]" started-at="2024-04-10T12:15:16 IST" name="Objects" finished-at="2024-04-10T12:15:16 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Objects -->
+        <test-method signature="testNullUsernameAndPassword()[pri:0, instance:orangeHRMTestClasses.TestCase1@72ade7e3]" started-at="2024-04-10T12:15:16 IST" name="testNullUsernameAndPassword" finished-at="2024-04-10T12:15:21 IST" duration-ms="4282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNullUsernameAndPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:orangeHRMTestClasses.TestCase1@72ade7e3]" started-at="2024-04-10T12:15:21 IST" name="tearDown" finished-at="2024-04-10T12:15:21 IST" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- orangeHRMTestClasses.TestCase1 -->
+    </test> <!-- Verify that the Username and Password text field should be null or blank. -->
+    <test started-at="2024-04-10T12:15:21 IST" name="To Verify the Login Functionality, Logout CTA should be visible." finished-at="2024-04-10T12:15:37 IST" duration-ms="15703">
+      <class name="orangeHRMTestClasses.TestCase2">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:orangeHRMTestClasses.TestCase2@a82c5f1]" started-at="2024-04-10T12:15:21 IST" name="launchBrowser" finished-at="2024-04-10T12:15:27 IST" duration-ms="5603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="Objects()[pri:0, instance:orangeHRMTestClasses.TestCase2@a82c5f1]" started-at="2024-04-10T12:15:27 IST" name="Objects" finished-at="2024-04-10T12:15:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Objects -->
+        <test-method signature="testLoginFunctionality()[pri:1, instance:orangeHRMTestClasses.TestCase2@a82c5f1]" started-at="2024-04-10T12:15:27 IST" name="testLoginFunctionality" finished-at="2024-04-10T12:15:30 IST" duration-ms="3381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFunctionality -->
+        <test-method signature="testLogoutFunctionalityHoverOnLogout()[pri:2, instance:orangeHRMTestClasses.TestCase2@a82c5f1]" started-at="2024-04-10T12:15:30 IST" name="testLogoutFunctionalityHoverOnLogout" finished-at="2024-04-10T12:15:36 IST" duration-ms="6526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogoutFunctionalityHoverOnLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:orangeHRMTestClasses.TestCase2@a82c5f1]" started-at="2024-04-10T12:15:36 IST" name="tearDown" finished-at="2024-04-10T12:15:37 IST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- orangeHRMTestClasses.TestCase2 -->
+    </test> <!-- To Verify the Login Functionality, Logout CTA should be visible. -->
+    <test started-at="2024-04-10T12:15:37 IST" name="To Verify the punch-in and Punch-out functionality, The date and time should match as system date and time" finished-at="2024-04-10T12:16:02 IST" duration-ms="25235">
+      <class name="orangeHRMTestClasses.TestCase3">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:orangeHRMTestClasses.TestCase3@55c53a33]" started-at="2024-04-10T12:15:37 IST" name="launchBrowser" finished-at="2024-04-10T12:15:43 IST" duration-ms="5998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="Objects()[pri:0, instance:orangeHRMTestClasses.TestCase3@55c53a33]" started-at="2024-04-10T12:15:43 IST" name="Objects" finished-at="2024-04-10T12:15:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Objects -->
+        <test-method signature="testPunchIn()[pri:1, instance:orangeHRMTestClasses.TestCase3@55c53a33]" started-at="2024-04-10T12:15:43 IST" name="testPunchIn" finished-at="2024-04-10T12:15:53 IST" duration-ms="10680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPunchIn -->
+        <test-method signature="testPunchOut()[pri:2, instance:orangeHRMTestClasses.TestCase3@55c53a33]" started-at="2024-04-10T12:15:53 IST" name="testPunchOut" finished-at="2024-04-10T12:16:02 IST" duration-ms="8312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPunchOut -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:orangeHRMTestClasses.TestCase3@55c53a33]" started-at="2024-04-10T12:16:02 IST" name="tearDown" finished-at="2024-04-10T12:16:02 IST" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- orangeHRMTestClasses.TestCase3 -->
+    </test> <!-- To Verify the punch-in and Punch-out functionality, The date and time should match as system date and time -->
+    <test started-at="2024-04-10T12:16:02 IST" name="To Verify the quick launch buttons, All CTA should be highlighted or hovered." finished-at="2024-04-10T12:16:20 IST" duration-ms="18011">
+      <class name="orangeHRMTestClasses.TestCase4">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:orangeHRMTestClasses.TestCase4@27508c5d]" started-at="2024-04-10T12:16:02 IST" name="launchBrowser" finished-at="2024-04-10T12:16:08 IST" duration-ms="6182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyAssignLeaves()[pri:1, instance:orangeHRMTestClasses.TestCase4@27508c5d]" started-at="2024-04-10T12:16:08 IST" name="verifyAssignLeaves" finished-at="2024-04-10T12:16:14 IST" duration-ms="5785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAssignLeaves -->
+        <test-method is-config="true" signature="Objects()[pri:0, instance:orangeHRMTestClasses.TestCase4@27508c5d]" started-at="2024-04-10T12:16:08 IST" name="Objects" finished-at="2024-04-10T12:16:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Objects -->
+        <test-method signature="verifyLeaveList()[pri:2, instance:orangeHRMTestClasses.TestCase4@27508c5d]" started-at="2024-04-10T12:16:14 IST" name="verifyLeaveList" finished-at="2024-04-10T12:16:15 IST" duration-ms="1192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLeaveList -->
+        <test-method signature="verifyTimesheets()[pri:3, instance:orangeHRMTestClasses.TestCase4@27508c5d]" started-at="2024-04-10T12:16:15 IST" name="verifyTimesheets" finished-at="2024-04-10T12:16:16 IST" duration-ms="1148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTimesheets -->
+        <test-method signature="verifyApplyLeave()[pri:4, instance:orangeHRMTestClasses.TestCase4@27508c5d]" started-at="2024-04-10T12:16:16 IST" name="verifyApplyLeave" finished-at="2024-04-10T12:16:17 IST" duration-ms="1169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyApplyLeave -->
+        <test-method signature="verifyMyLeave()[pri:5, instance:orangeHRMTestClasses.TestCase4@27508c5d]" started-at="2024-04-10T12:16:17 IST" name="verifyMyLeave" finished-at="2024-04-10T12:16:19 IST" duration-ms="1161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMyLeave -->
+        <test-method signature="verifyMyTimesheets()[pri:6, instance:orangeHRMTestClasses.TestCase4@27508c5d]" started-at="2024-04-10T12:16:19 IST" name="verifyMyTimesheets" finished-at="2024-04-10T12:16:20 IST" duration-ms="1164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMyTimesheets -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:orangeHRMTestClasses.TestCase4@27508c5d]" started-at="2024-04-10T12:16:20 IST" name="tearDown" finished-at="2024-04-10T12:16:20 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- orangeHRMTestClasses.TestCase4 -->
+    </test> <!-- To Verify the quick launch buttons, All CTA should be highlighted or hovered. -->
+  </suite> <!-- Suite -->
+</testng-results>

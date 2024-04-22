@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="extentListeners.TestNFGListeners"></listener>
+	</listeners>
+  <test thread-count="5" name="Verify that the Username and Password text field should be null or blank.">
+	  <classes>
+		  <class name="orangeHRMTestClasses.TestCase1"></class>
+	  </classes>
+  </test> <!-- Test -->
+  <test name="To Verify the Login Functionality, Logout CTA should be visible.">
+	  <classes>
+		  <class name="orangeHRMTestClasses.TestCase2"></class>
+	  </classes>
+  </test>
+  <test name="To Verify the punch-in and Punch-out functionality, The date and time should match as system date and time">
+	  <classes>
+		  <class name="orangeHRMTestClasses.TestCase3"></class>
+	  </classes>
+  </test>
+  <test name="To Verify the quick launch buttons, All CTA should be highlighted or hovered.">
+	  <classes>
+		  <class name="orangeHRMTestClasses.TestCase4"></class>
+	  </classes>
+  </test>
+</suite> <!-- Suite -->
